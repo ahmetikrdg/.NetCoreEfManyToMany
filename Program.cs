@@ -59,6 +59,7 @@ namespace EFD
         public int UserId { get; set; }//eklemiş olduğum herhangi bir userin ıd bilgisini kullanarak gelip adres tablosuna bir kayırt ekleyebilirim
         //murlaka bir userin ıdsi var demek int? yaparsan nulda olsa sıkıntı olmaz//yabancı anahtar bu user
     }
+    [Table("Ürünler")] //tabloda bu isimle görünür
     public class Product
     {
         public int Id { get; set; }
